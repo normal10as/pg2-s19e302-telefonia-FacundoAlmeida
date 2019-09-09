@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Facu\\source\\repos\\pg2-s19e302-telefonia-FacundoAlmeida\\TelefoniaEntidades\\Cliente\\Cliente.vbproj": {}
+    "C:\\Users\\Facu\\source\\repos\\pg2-s19e302-telefonia-FacundoAlmeida\\TelefoniaEntidades\\Entidades\\Entidades.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\Facu\\source\\repos\\pg2-s19e302-telefonia-FacundoAlmeida\\TelefoniaEntidades\\Cliente\\Cliente.vbproj": {
+    "C:\\Users\\Facu\\source\\repos\\pg2-s19e302-telefonia-FacundoAlmeida\\TelefoniaEntidades\\Entidades\\Entidades.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Facu\\source\\repos\\pg2-s19e302-telefonia-FacundoAlmeida\\TelefoniaEntidades\\Cliente\\Cliente.vbproj",
-        "projectName": "Cliente",
-        "projectPath": "C:\\Users\\Facu\\source\\repos\\pg2-s19e302-telefonia-FacundoAlmeida\\TelefoniaEntidades\\Cliente\\Cliente.vbproj",
+        "projectUniqueName": "C:\\Users\\Facu\\source\\repos\\pg2-s19e302-telefonia-FacundoAlmeida\\TelefoniaEntidades\\Entidades\\Entidades.vbproj",
+        "projectName": "Entidades",
+        "projectPath": "C:\\Users\\Facu\\source\\repos\\pg2-s19e302-telefonia-FacundoAlmeida\\TelefoniaEntidades\\Entidades\\Entidades.vbproj",
         "packagesPath": "C:\\Users\\Facu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Facu\\source\\repos\\pg2-s19e302-telefonia-FacundoAlmeida\\TelefoniaEntidades\\Cliente\\obj\\",
+        "outputPath": "C:\\Users\\Facu\\source\\repos\\pg2-s19e302-telefonia-FacundoAlmeida\\TelefoniaEntidades\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
