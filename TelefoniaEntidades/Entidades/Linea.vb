@@ -12,18 +12,22 @@
 
 
     End Sub
-    Public Sub suspender()
+    Public Function Suspender()
+        _estado = 0
+        Return _estado
+    End Function
 
-    End Sub
+    Public Function reactivar()
+        _estado = 1
+        Return _estado
 
-    Public Sub reactivar()
-
-    End Sub
+    End Function
 
     ''falta to string''
     Private _codigoArea As UShort
     Public Property CodigoArea As UShort
         Get
+
             Return _codigoArea
 
         End Get
@@ -47,7 +51,10 @@
     Private _estado As String
     Public ReadOnly Property Estado As String
         Get
-            Return _estado
+            If _estado = 1 Then
+                Return "Activo"
+            End If
+            Return "Suspendido"
         End Get
     End Property
 

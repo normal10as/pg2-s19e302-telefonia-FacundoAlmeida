@@ -7,9 +7,6 @@
     '
     '    End Sub
 
-
-
-
     Public Sub New()
         _fechaVenta = #10-20-2019#
         _serie = " "
