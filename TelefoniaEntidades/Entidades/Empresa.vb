@@ -32,5 +32,10 @@
         End Set
     End Property
 
+    Public Overrides Function Tostring() As String
+        Return RazonSocial & " " & Cuit
+
+    End Function
+
 
 End Class

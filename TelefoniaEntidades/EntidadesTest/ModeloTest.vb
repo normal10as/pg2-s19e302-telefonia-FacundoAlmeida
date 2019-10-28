@@ -4,7 +4,7 @@ Imports Entidades
 Module ModeloModule
     Sub ModeloTest()
         Dim Modelo1 As Modelo
-        Modelo1 = New Modelo("")
+        Modelo1 = New Modelo("LG", "Stylus")
 
         'test setters longitud
         Modelo1.NombreModelo = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"

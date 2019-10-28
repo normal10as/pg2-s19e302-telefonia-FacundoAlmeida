@@ -1,11 +1,11 @@
 ﻿Public Class Marca
+
     Private _nombreMarca As String
 
     Public Sub New(NombreMarca)
         Me.NombreMarca = NombreMarca
     End Sub
-    ''falta toString. puede confundir
-    ''con nombreModelo
+
     Public Property NombreMarca As String
         Get
             Return _nombreMarca
@@ -17,4 +17,9 @@
             End If
         End Set
     End Property
+
+    Public Overrides Function ToString() As String
+        Return NombreMarca & "  "
+    End Function
+
 End Class

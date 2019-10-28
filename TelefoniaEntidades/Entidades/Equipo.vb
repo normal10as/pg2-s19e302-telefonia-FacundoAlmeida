@@ -1,16 +1,16 @@
 ﻿Public Class Equipo
-    Public Sub New(Marca, Modelo, Serie)
+    Inherits Modelo
+    Public Sub New(NombreModelo As String, NombreMarca As String, Serie As String)
+        MyBase.New(NombreModelo, NombreMarca)
         Me.Serie = Serie
 
-    End Sub
-    'Public Sub Vender(as Date)
-    '
-    '    End Sub
 
-    Public Sub New()
-        _fechaVenta = #10-20-2019#
-        _serie = " "
     End Sub
+    Public Function Vender() As Date
+        Return Date.Now
+
+    End Function
+
     Private _serie As String
     Public Property Serie As String
         Get
@@ -26,7 +26,7 @@
     Private _fechaVenta As Date
     Public ReadOnly Property FechaVenta As Date
         Get
-            Return _fechaVenta
+            Return Vender()
         End Get
     End Property
 

@@ -4,10 +4,10 @@ Imports Entidades
 Module EquipoModule
     Sub EquipoTest()
         Dim Equipo1 As Equipo
-        Equipo1 = New Equipo()
+        Equipo1 = New Equipo("Stylus", "LG", "888888888")
 
         ''Prueba setters
-        Equipo1.Serie = "Serie Equipo"
+        Equipo1.Serie = "999999999"
 
 
         ' Prueba Getters

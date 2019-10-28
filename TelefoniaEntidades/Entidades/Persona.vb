@@ -56,5 +56,10 @@
         End Set
     End Property
 
+    Public Overrides Function ToString() As String
+        Return Apellido & " " & Nombre & " " & Documento
+
+    End Function
+
 
 End Class

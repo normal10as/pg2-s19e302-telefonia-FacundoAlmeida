@@ -4,7 +4,7 @@ Imports Entidades
 Module LineaModule
     Sub LineaTest()
         Dim Linea1 As Linea
-        Linea1 = New Linea(3764, 257623)
+        Linea1 = New Linea("LG", "Stylus", "999999", "3764", "257623")
 
 
         'test getters

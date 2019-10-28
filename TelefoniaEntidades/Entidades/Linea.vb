@@ -1,17 +1,12 @@
 ﻿Public Class Linea
-
-    Public Sub New(codigoArea, numero)
-        Me.CodigoArea = codigoArea
-        Me.Numero = numero
+    Inherits Equipo
+    Public Sub New(NombreMarca As String, NombreModelo As String, Serie As String, CodigoArea As UShort, Numero As UInteger)
+        MyBase.New(NombreMarca, NombreModelo, Serie)
+        Me.CodigoArea = CodigoArea
+        Me.Numero = Numero
     End Sub
 
-    Public Sub New()
-        CodigoArea = 0
-        Numero = 0
 
-
-
-    End Sub
     Public Function Suspender()
         _estado = 0
         Return _estado
@@ -23,7 +18,7 @@
 
     End Function
 
-    ''falta to string''
+
     Private _codigoArea As UShort
     Public Property CodigoArea As UShort
         Get
@@ -57,5 +52,15 @@
             Return "Suspendido"
         End Get
     End Property
+
+    Public Overrides Function ToString() As String
+        If _estado = 1 Then
+            Return " " & CodigoArea & Numero & "Activado."
+        Else
+            Return " " & CodigoArea & Numero & "Suspendido."
+        End If
+
+
+    End Function
 
 End Class
